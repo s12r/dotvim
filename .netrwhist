@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/sventek/.vim-bak'
+let g:netrw_dirhist_2='/Users/sventek/.vim-bak/ftplugin'
+let g:netrw_dirhist_3='/Users/sventek/.vim-bak/ftplugin/html'
+let g:netrw_dirhist_4='/Users/sventek/.vim-bak/colors'
