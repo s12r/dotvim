@@ -1,6 +1,6 @@
 
-set lines=43
-set columns=170
+set lines=40
+set columns=160
 
 "colorscheme railscasts
 "colorscheme blackboard
