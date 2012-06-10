@@ -41,6 +41,11 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 " plugin specific stuff
 "
 
+" ###### Markdown ######
+"
+nmap <leader>md :%!Markdown.pl --html4tags <cr>
+
+
 " ###### netrw ######
 " use previous window when opening new file via <cr>
 " let g:netrw_browse_split = 4

@@ -10,3 +10,8 @@
 	path = bundle/vim-l9
 	url = https://github.com/clones/vim-l9.git
 	ignore = dirty
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+	ignore = dirty
+
