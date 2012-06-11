@@ -18,3 +18,7 @@
 	path = lib/sparkup
 	url = https://github.com/rstacruz/sparkup.git
 	ignore = dirty
+[submodule "bundle/taskpaper"]
+	path = bundle/taskpaper
+	url = https://github.com/davidoc/taskpaper.vim.git
+	ignore = dirty
