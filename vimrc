@@ -1,7 +1,9 @@
 
-" plugin pathogen
-call pathogen#runtime_append_all_bundles()
+" pathogen
+filetype off
+call pathogen#infect()
 call pathogen#helptags()
+filetype indent plugin on
 
 
 " common settings
@@ -20,11 +22,6 @@ set listchars=tab:▸\ ,eol:¬
 
 " @todo for .php, .css, .js, .html
 set nowrap
-
-
-" enable plugins
-filetype plugin on
-filetype indent on
 
 
 " autocomplete funcs and identifiers for languages
