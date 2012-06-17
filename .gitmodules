@@ -22,3 +22,6 @@
 	path = bundle/taskpaper
 	url = https://github.com/davidoc/taskpaper.vim.git
 	ignore = dirty
+[submodule "bundle/vimcheat"]
+	path = bundle/vimcheat
+	url = git@github.com:s12r/vimcheat.git
