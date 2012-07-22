@@ -8,7 +8,7 @@ set columns=140
 colorscheme wombat
 "colorscheme wombat256
 
-"set guifont=Monaco:h11
+set guifont=Monaco:h12
 set guioptions-=T
 
 "set noicon

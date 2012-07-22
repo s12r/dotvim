@@ -19,6 +19,8 @@ set number
 set scrolloff=5
 let maplocalleader=","
 set listchars=tab:▸\ ,eol:¬
+set laststatus=2
+set statusline=%t\ [%c,%l\/%L]%=%{&fileencoding}\ %{&ff}\ %y\ 
 
 " @todo for .php, .css, .js, .html
 set nowrap
