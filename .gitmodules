@@ -29,3 +29,7 @@
 	path = bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
 	ignore = dirty
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+	ignore = dirty
