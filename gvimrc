@@ -7,10 +7,11 @@ set columns=140
 "colorscheme desert
 "colorscheme wombat
 "colorscheme wombat256
+colorscheme molokai
 
-set background=dark
+"set background=dark
 "set background=light
-colorscheme solarized
+"colorscheme solarized
 
 set guifont=Monaco:h12
 set guioptions-=T
