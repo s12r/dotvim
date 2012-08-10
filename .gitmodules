@@ -14,6 +14,10 @@
 	path = bundle/markdown
 	url = https://github.com/plasticboy/vim-markdown.git
 	ignore = dirty
+[submodule "bundle/textile.vim"]
+	path = bundle/textile.vim
+	url = https://github.com/timcharper/textile.vim.git
+	ignore = dirty
 [submodule "lib/sparkup"]
 	path = lib/sparkup
 	url = https://github.com/rstacruz/sparkup.git
