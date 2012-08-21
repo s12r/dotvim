@@ -2,7 +2,7 @@
 set lines=40
 set columns=140
 
-set background=dark
+"set background=dark
 "set background=light
 
 "colorscheme railscasts
@@ -11,7 +11,12 @@ set background=dark
 "colorscheme wombat
 "colorscheme wombat256
 "colorscheme molokai
-colorscheme solarized
+"colorscheme solarized
+colorscheme eclipse
+"colorscheme jellybeans
+"colorscheme symfony
+"colorscheme vydark
+"colorscheme vylight
 
 set guifont=Monaco:h12
 set guioptions-=T
