@@ -10,13 +10,15 @@ set columns=140
 "colorscheme desert
 "colorscheme wombat
 "colorscheme wombat256
-"colorscheme molokai
+colorscheme molokai
 "colorscheme solarized
-colorscheme eclipse
+"colorscheme eclipse
 "colorscheme jellybeans
 "colorscheme symfony
 "colorscheme vydark
 "colorscheme vylight
+"colorscheme vividchalk
+"colorscheme festoon
 
 set guifont=Monaco:h12
 set guioptions-=T
