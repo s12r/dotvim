@@ -19,6 +19,7 @@ colorscheme molokai
 "colorscheme vylight
 "colorscheme vividchalk
 "colorscheme festoon
+"colorscheme harlequin
 
 set guifont=Monaco:h12
 set guioptions-=T
