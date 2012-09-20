@@ -41,3 +41,7 @@
 	path = bundle/vimwiki
 	url = https://github.com/weierophinney/vimwiki.git
 	ignore = dirty
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+	ignore = dirty
