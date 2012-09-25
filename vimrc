@@ -18,6 +18,7 @@ set ruler
 set number
 set scrolloff=5
 let maplocalleader=","
+let mapleader=";"
 set listchars=tab:▸\ ,eol:¬
 set laststatus=2
 set statusline=%t\ [%c,%l\/%L]%=%{&fileencoding}\ %{&ff}\ %y\ 
