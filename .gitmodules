@@ -49,3 +49,6 @@
 	path = bundle/HyperList
 	url = https://github.com/vim-scripts/HyperList.git
 	ignore = dirty
+[submodule "bundle/vimoutliner"]
+	path = bundle/vimoutliner
+	url = https://github.com/vimoutliner/vimoutliner.git
