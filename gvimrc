@@ -2,7 +2,7 @@
 set lines=40
 set columns=140
 
-"set background=dark
+set background=dark
 "set background=light
 
 "colorscheme railscasts
@@ -10,8 +10,8 @@ set columns=140
 "colorscheme desert
 "colorscheme wombat
 "colorscheme wombat256
-colorscheme molokai
-"colorscheme solarized
+"colorscheme molokai
+colorscheme solarized
 "colorscheme eclipse
 "colorscheme jellybeans
 "colorscheme symfony
