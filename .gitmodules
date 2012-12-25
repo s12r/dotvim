@@ -52,3 +52,4 @@
 [submodule "bundle/vimoutliner"]
 	path = bundle/vimoutliner
 	url = https://github.com/vimoutliner/vimoutliner.git
+	ignore = dirty
