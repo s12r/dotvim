@@ -57,7 +57,3 @@
 	path = bundle/piv
 	url = https://github.com/spf13/PIV.git
 	ignore = dirty
-[submodule "bundle/typoscript-vim"]
-	path = bundle/typoscript-vim
-	url = https://github.com/nebelschwade/typoscript-vim
-	ignore = dirty
