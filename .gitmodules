@@ -53,3 +53,7 @@
 	path = bundle/vimoutliner
 	url = https://github.com/vimoutliner/vimoutliner.git
 	ignore = dirty
+[submodule "bundle/piv"]
+	path = bundle/piv
+	url = https://github.com/spf13/PIV.git
+	ignore = dirty
