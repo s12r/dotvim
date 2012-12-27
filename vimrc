@@ -41,6 +41,11 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 " plugin specific stuff
 
 
+" ###### PIV ######
+"
+let g:DisableAutoPHPFolding = 1
+
+
 " ###### tagbar #######
 "
 if has("mac")
