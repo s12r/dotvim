@@ -61,3 +61,7 @@
 	path = bundle/typoscript
 	url = git@github.com:s12r/typoscript-vim.git
 	ignore = dirty
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+	ignore = dirty

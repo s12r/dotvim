@@ -39,7 +39,15 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 
 "
 " plugin specific stuff
+
+
+" ###### tagbar #######
 "
+if has("mac")
+	" use macports version of exuberant ctags
+	let g:tagbar_ctags_bin = '/opt/local/bin/ctags'
+endif
+
 
 " ###### Markdown ######
 "
