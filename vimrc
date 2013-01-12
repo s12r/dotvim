@@ -41,9 +41,10 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 " plugin specific stuff
 
 
-" ###### PIV ######
+" ###### PIV & php related stuff ######
 "
 let g:DisableAutoPHPFolding = 1
+autocmd FileType php setlocal noeol binary fileformats="mac,unix,dos"
 
 
 " ###### tagbar #######
