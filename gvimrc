@@ -20,7 +20,8 @@ set background=dark
 "colorscheme vividchalk
 "colorscheme festoon
 "colorscheme harlequin
-colorscheme hybrid
+"colorscheme hybrid
+colorscheme badwolf
 
 set guifont=Monaco:h12
 set guioptions-=T
