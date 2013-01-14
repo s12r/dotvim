@@ -8,6 +8,7 @@ filetype indent plugin on
 
 " common settings
 syntax on
+set nocompatible
 set hlsearch
 set tabstop=4
 set autoindent
