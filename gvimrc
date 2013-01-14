@@ -11,7 +11,7 @@ set background=dark
 "colorscheme wombat
 "colorscheme wombat256
 "colorscheme molokai
-colorscheme solarized
+"colorscheme solarized
 "colorscheme eclipse
 "colorscheme jellybeans
 "colorscheme symfony
@@ -20,6 +20,7 @@ colorscheme solarized
 "colorscheme vividchalk
 "colorscheme festoon
 "colorscheme harlequin
+colorscheme hybrid
 
 set guifont=Monaco:h12
 set guioptions-=T

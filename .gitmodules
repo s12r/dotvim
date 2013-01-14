@@ -65,3 +65,7 @@
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 	ignore = dirty
+[submodule "bundle/vim-hybrid"]
+	path = bundle/vim-hybrid
+	url = https://github.com/w0ng/vim-hybrid.git
+	ignore = dirty
