@@ -1,3 +1,5 @@
+" basics
+set nocompatible
 
 " pathogen
 filetype off
@@ -6,24 +8,24 @@ call pathogen#infect()
 call pathogen#helptags()
 filetype indent plugin on
 
-
 " common settings
 syntax on
-set nocompatible
 set hlsearch
 set tabstop=4
 set autoindent
 set showcmd
 set incsearch
-set ignorecase
+set noignorecase
 set ruler
 set number
+set cursorline
 set scrolloff=5
-let maplocalleader=","
-let mapleader=";"
+let mapleader=","
+"set list
 set listchars=tab:▸\ ,eol:¬
 set laststatus=2
 set statusline=%t\ [%c,%l\/%L]%=%{&fileencoding}\ %{&ff}\ %y\ 
+set visualbell
 
 " @todo for .php, .css, .js, .html
 set nowrap
@@ -38,6 +40,9 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
 
+" vimrc handling
+nmap <Leader>ev :e $MYVIMRC<CR>
+nmap <Leader>sv :so $MYVIMRC<CR>
 
 "
 " plugin specific stuff
