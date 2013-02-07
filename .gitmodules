@@ -73,3 +73,7 @@
 	path = bundle/badwolf
 	url = https://github.com/sjl/badwolf.git
 	ignore = dirty
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+	ignore = dirty
