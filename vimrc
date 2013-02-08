@@ -1,37 +1,59 @@
 " basics
 set nocompatible
 
+
+" ============================================================================
 " pathogen
+" ============================================================================
 filetype off
 let g:pathogen_disabled = ['supertab']
 call pathogen#infect()
 call pathogen#helptags()
 filetype indent plugin on
 
+
+
+" ============================================================================
 " common settings
+" ============================================================================
+" localleader
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+
+" editing
 syntax on
-set hlsearch
 set tabstop=4
 set autoindent
-set showcmd
-set incsearch
-set noignorecase
+"set list
+set listchars=tab:▸\ ,eol:¬
+
+" editor
 set ruler
 set number
 set cursorline
+set visualbell
 set scrolloff=5
-let mapleader=","
-"set list
-set listchars=tab:▸\ ,eol:¬
 set laststatus=2
 set statusline=%t\ [%c,%l\/%L]%=%{&fileencoding}\ %{&ff}\ %y\ 
-set visualbell
+set showcmd
 
-" @todo for .php, .css, .js, .html
-set nowrap
+" search
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+" vimrc handling
+nmap <Leader>ev :e $MYVIMRC<CR>
+nmap <Leader>sv :so $MYVIMRC<CR>
 
 
+
+" ============================================================================
+" filetype specific settings
+" ============================================================================
 " autocomplete funcs and identifiers for languages
+set nowrap " @todo for .php, .css, .js, .html
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
@@ -40,13 +62,11 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
 
-" vimrc handling
-nmap <Leader>ev :e $MYVIMRC<CR>
-nmap <Leader>sv :so $MYVIMRC<CR>
 
-"
+
+" ============================================================================
 " plugin specific stuff
-"
+" ============================================================================
 
 " ###### supertab #######
 "
