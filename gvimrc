@@ -22,6 +22,7 @@ colorscheme solarized
 "colorscheme harlequin
 "colorscheme hybrid
 "colorscheme badwolf
+"colorscheme sahara
 
 set guifont=Monaco:h12
 set guioptions-=T
