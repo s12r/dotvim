@@ -10,8 +10,8 @@ set background=dark
 "colorscheme desert
 "colorscheme wombat
 "colorscheme wombat256
-"colorscheme molokai
-colorscheme solarized
+colorscheme molokai
+"colorscheme solarized
 "colorscheme eclipse
 "colorscheme jellybeans
 "colorscheme symfony
@@ -25,6 +25,7 @@ colorscheme solarized
 "colorscheme sahara
 
 set guifont=Monaco:h12
+"set guifont=Inconsolata:h13
 set guioptions-=T
 
 "set noicon
