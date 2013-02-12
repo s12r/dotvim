@@ -6,7 +6,7 @@ set nocompatible
 " pathogen
 " ============================================================================
 filetype off
-let g:pathogen_disabled = ['supertab']
+let g:pathogen_disabled = ['supertab', 'vimwiki']
 call pathogen#infect()
 call pathogen#helptags()
 filetype indent plugin on
