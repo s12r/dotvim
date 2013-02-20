@@ -6,7 +6,7 @@ set nocompatible
 " pathogen
 " ============================================================================
 filetype off
-let g:pathogen_disabled = ['supertab', 'vimwiki']
+let g:pathogen_disabled = ['piv']
 call pathogen#infect()
 call pathogen#helptags()
 filetype indent plugin on
@@ -74,10 +74,10 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 "let g:SuperTabContextTextOmniPrecedence = ['&omnifunc', '&completefunc']
 
 
-" ###### PIV & php related stuff ######
-"
-let g:DisableAutoPHPFolding = 1
-autocmd FileType php setlocal noeol binary fileformats="mac,unix,dos"
+"" ###### PIV & php related stuff ######
+""
+"let g:DisableAutoPHPFolding = 1
+"autocmd FileType php setlocal noeol binary fileformats="mac,unix,dos"
 
 
 " ###### tagbar #######
