@@ -22,6 +22,7 @@ let mapleader=" "
 
 " editing
 syntax on
+set encoding=utf-8 
 set tabstop=4
 set autoindent
 "set list
@@ -70,7 +71,7 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 
 " ###### supertab #######
 "
-"let g:SuperTabDefaultCompletionType = "context"
+"let g:SuperTabDefaultCompletionType = 'context'
 "let g:SuperTabContextTextOmniPrecedence = ['&omnifunc', '&completefunc']
 
 
@@ -104,6 +105,11 @@ let g:netrw_liststyle = 3
 " let g:netrw_winsize = 80
 
 
+" ###### powerline ######
+"
+"let g:Powerline_symbols = 'fancy'
+
+
 " ###### gpg ######
 " http://www.cipherdyne.org/blog/2008/02/interfacing-vim-with-gnupg-encrypted-files.html
 "
@@ -129,4 +135,24 @@ autocmd BufWritePre,FileWritePre *.gpg '[,']!gpg2 --default-recipient-self -ae 2
 " Undo the encryption so we are back in the normal text, directly
 " after the file has been written.
 autocmd BufWritePost,FileWritePost *.gpg u 
+
+
+
+" ============================================================================
+" GUI specific stuff
+" ============================================================================
+if has('gui_running')
+	
+	" editor
+	set lines=40
+	set columns=140
+	
+	" colorscheme & font
+	set background=dark
+	colorscheme molokai
+	set guifont=Monaco:h12
+	"set guifont=Menlo\ Regular\ for\ Powerline:h12
+	set guioptions-=T
+	
+endif
 
