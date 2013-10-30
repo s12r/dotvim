@@ -6,7 +6,7 @@ set nocompatible
 " pathogen
 " ============================================================================
 filetype off
-let g:pathogen_disabled = ['piv']
+let g:pathogen_disabled = ['piv,supertab']
 call pathogen#infect()
 call pathogen#helptags()
 filetype indent plugin on
@@ -24,6 +24,7 @@ let mapleader=" "
 syntax on
 set encoding=utf-8 
 set tabstop=4
+set shiftwidth=4
 set autoindent
 "set list
 set listchars=tab:▸\ ,eol:¬
