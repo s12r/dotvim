@@ -85,3 +85,6 @@
 	path = bundle/powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
 	ignore = dirty
+[submodule "bundle/riv.vim"]
+	path = bundle/riv.vim
+	url = https://github.com/Rykka/riv.vim.git
