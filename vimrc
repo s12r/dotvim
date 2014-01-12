@@ -97,7 +97,7 @@ nmap <leader>md :%!Markdown.pl --html4tags <cr>
 
 " ###### netrw ######
 " set tree as default liststyle
-let g:netrw_liststyle = 3
+" let g:netrw_liststyle = 3 " seems to cause strange problems on closing vim
 " use previous window when opening new file via <cr>
 " let g:netrw_browse_split = 4
 " open new window to the right
