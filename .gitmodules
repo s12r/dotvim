@@ -97,3 +97,6 @@
 [submodule "bundle/vim-rst-tables"]
 	path = bundle/vim-rst-tables
 	url = https://github.com/nvie/vim-rst-tables.git
+[submodule "bundle/iceberg.vim"]
+	path = bundle/iceberg.vim
+	url = https://github.com/cocopon/iceberg.vim.git
