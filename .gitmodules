@@ -14,10 +14,6 @@
 	path = bundle/textile.vim
 	url = https://github.com/timcharper/textile.vim.git
 	ignore = dirty
-[submodule "lib/sparkup"]
-	path = lib/sparkup
-	url = https://github.com/rstacruz/sparkup.git
-	ignore = dirty
 [submodule "bundle/taskpaper"]
 	path = bundle/taskpaper
 	url = https://github.com/davidoc/taskpaper.vim.git
@@ -100,3 +96,6 @@
 [submodule "bundle/iceberg.vim"]
 	path = bundle/iceberg.vim
 	url = https://github.com/cocopon/iceberg.vim.git
+[submodule "bundle/sparkup"]
+	path = bundle/sparkup
+	url = https://github.com/rstacruz/sparkup.git
