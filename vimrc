@@ -6,7 +6,7 @@ set nocompatible
 " pathogen
 " ============================================================================
 filetype off
-let g:pathogen_disabled = ['HyperList,ack.vim,badwolf,ctrlp.vim,piv,sahara,solarized,supertab,tagbar,textile.vim,typoscript,vim-19,vim-hybrid,vim-rst-tables,vimoutliner,vimwiki']
+let g:pathogen_disabled = [ ]
 call pathogen#infect()
 call pathogen#helptags()
 filetype indent plugin on
@@ -79,14 +79,6 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 ""
 "let g:DisableAutoPHPFolding = 1
 "autocmd FileType php setlocal noeol binary fileformats="mac,unix,dos"
-
-
-" ###### tagbar #######
-"
-if has("mac")
-	" use macports version of exuberant ctags
-	let g:tagbar_ctags_bin = '/opt/local/bin/ctags'
-endif
 
 
 " ###### Markdown ######
