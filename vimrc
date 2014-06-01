@@ -69,18 +69,6 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 " plugin specific stuff
 " ============================================================================
 
-" ###### supertab #######
-"
-"let g:SuperTabDefaultCompletionType = 'context'
-"let g:SuperTabContextTextOmniPrecedence = ['&omnifunc', '&completefunc']
-
-
-"" ###### PIV & php related stuff ######
-""
-"let g:DisableAutoPHPFolding = 1
-"autocmd FileType php setlocal noeol binary fileformats="mac,unix,dos"
-
-
 " ###### Markdown ######
 "
 nmap <leader>md :%!Markdown.pl --html4tags <cr>
