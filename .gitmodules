@@ -2,80 +2,9 @@
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
 	ignore = dirty
-[submodule "bundle/vim-l9"]
-	path = bundle/vim-l9
-	url = https://github.com/clones/vim-l9.git
-	ignore = dirty
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = https://github.com/plasticboy/vim-markdown.git
-	ignore = dirty
-[submodule "bundle/textile.vim"]
-	path = bundle/textile.vim
-	url = https://github.com/timcharper/textile.vim.git
-	ignore = dirty
-[submodule "bundle/taskpaper"]
-	path = bundle/taskpaper
-	url = https://github.com/davidoc/taskpaper.vim.git
-	ignore = dirty
-[submodule "bundle/vimcheat"]
-	path = bundle/vimcheat
-	url = git@github.com:s12r/vimcheat.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim.git
-	ignore = dirty
-[submodule "bundle/solarized"]
-	path = bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-	ignore = dirty
-[submodule "bundle/vimwiki"]
-	path = bundle/vimwiki
-	url = https://github.com/weierophinney/vimwiki.git
-	ignore = dirty
-[submodule "bundle/tabular"]
-	path = bundle/tabular
-	url = https://github.com/godlygeek/tabular.git
-	ignore = dirty
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
-	ignore = dirty
-[submodule "bundle/HyperList"]
-	path = bundle/HyperList
-	url = https://github.com/vim-scripts/HyperList.git
-	ignore = dirty
-[submodule "bundle/vimoutliner"]
-	path = bundle/vimoutliner
-	url = https://github.com/vimoutliner/vimoutliner.git
-	ignore = dirty
-[submodule "bundle/piv"]
-	path = bundle/piv
-	url = https://github.com/spf13/PIV.git
-	ignore = dirty
-[submodule "bundle/typoscript"]
-	path = bundle/typoscript
-	url = git@github.com:s12r/typoscript-vim.git
-	ignore = dirty
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
-	ignore = dirty
-[submodule "bundle/vim-hybrid"]
-	path = bundle/vim-hybrid
-	url = https://github.com/w0ng/vim-hybrid.git
-	ignore = dirty
-[submodule "bundle/badwolf"]
-	path = bundle/badwolf
-	url = https://github.com/sjl/badwolf.git
-	ignore = dirty
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
-	ignore = dirty
-[submodule "bundle/sahara"]
-	path = bundle/sahara
-	url = https://github.com/tejr/sahara.git
 	ignore = dirty
 [submodule "bundle/powerline"]
 	path = bundle/powerline
@@ -84,18 +13,36 @@
 [submodule "bundle/riv.vim"]
 	path = bundle/riv.vim
 	url = https://github.com/Rykka/riv.vim.git
-[submodule "bundle/ack.vim"]
-	path = bundle/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/surround"]
-	path = bundle/surround
-	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-rst-tables"]
-	path = bundle/vim-rst-tables
-	url = https://github.com/nvie/vim-rst-tables.git
-[submodule "bundle/iceberg.vim"]
-	path = bundle/iceberg.vim
-	url = https://github.com/cocopon/iceberg.vim.git
+	ignore = dirty
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
+	ignore = dirty
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+	ignore = dirty
 [submodule "bundle/sparkup"]
 	path = bundle/sparkup
 	url = https://github.com/rstacruz/sparkup.git
+	ignore = dirty
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git
+	ignore = dirty
+[submodule "bundle/taskpaper"]
+	path = bundle/taskpaper
+	url = https://github.com/davidoc/taskpaper.vim.git
+	ignore = dirty
+[submodule "bundle/typoscript"]
+	path = bundle/typoscript
+	url = git@github.com:s12r/typoscript-vim.git
+	ignore = dirty
+[submodule "bundle/vim-rst-tables"]
+	path = bundle/vim-rst-tables
+	url = https://github.com/nvie/vim-rst-tables.git
+	ignore = dirty
+[submodule "bundle/vimcheat"]
+	path = bundle/vimcheat
+	url = git@github.com:s12r/vimcheat.git
+	ignore = dirty
